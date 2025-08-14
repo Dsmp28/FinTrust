@@ -22,6 +22,11 @@ const LoginForm = ({ onLogin }) => {
   return (
     <div className="login-form-container">
       <div className="login-form">
+        <img 
+          src="https://fintrustauditores.com/wp-content/uploads/2024/07/FINTRUST-LOGO-04-1024x1024.png" 
+          alt="FinTrust Logo" 
+          className="logo"
+        />
         <h2>FinTrust - Iniciar Sesión</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import LoginForm from '../src/components/LoginForm';
+import LoginForm from '../components/LoginForm';
 
 describe('LoginForm', () => {
   const mockOnLogin = jest.fn();
